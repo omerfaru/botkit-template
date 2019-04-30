@@ -12,7 +12,7 @@ module.exports = function (controller, bot) {
         "description": "Cisco Webex Bot created by Omer Farook!",
 
         // Where to get more information about the bot
-        "url": "https://github.com/CiscoDevNet/botkit-template",
+        "url": "https://github.com/omerfaru/botkit-template",
 
         // owner
         "owner": "Omer Farook",
