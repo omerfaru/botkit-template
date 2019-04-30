@@ -9,7 +9,7 @@ module.exports = function (controller, bot) {
     var botcommons = {
 
         // Bot description
-        "description": "Omera is a Cisco Webex Bot created By Omer!",
+        "description": " OmeraBot is a Cisco Webex Bot created By Omer Farook.",
 
         // Where to get more information about the bot
         "url": "https://github.com/omerfaru/botkit-template",
@@ -23,7 +23,7 @@ module.exports = function (controller, bot) {
         // Messaging platform
         // [WORKAROUND] overriding Botkit's integrated support temporarly as 'ciscospark' is still returned
         //"plaform": bot.type,
-        "plaform": "webex",
+        "Plaform": "Cisco Webex",
 
         // the precise bot identity is loaded asynchronously, from a GET /people/me request
         "identity": "unknown",
@@ -57,6 +57,7 @@ module.exports = function (controller, bot) {
             + '   "description" : "' + botcommons["description"] + '",\n'
             + '   "url"         : "' + botcommons["url"] + '",\n'
             + '   "owner"       : "' + botcommons["owner"] + '",\n'
+            + '   "Plaform"       : "' + botcommons["Plaform"] + '",\n'
             + '   "support"     : "' + botcommons["support-contact"] + '",\n'
             + '   "healthcheck" : "' + botcommons["healthcheck"] + '",\n'
             + '}\n';
