@@ -7,18 +7,18 @@ module.exports = function (controller, bot) {
     // OVERRIDE WITH YOUR BOT INFORMATION
     //
     var botcommons = {
-
+        
         // Bot description
-        "description": "Cisco Webex Bot created by Omer Farook!",
+        "description": "It's an awesome bot for sure!",
 
         // Where to get more information about the bot
-        "url": "https://github.com/omerfaru/botkit-template",
+        "url": "https://github.com/CiscoDevNet/botkit-template",
 
-        // owner
-        "owner": "Omer Farook",
+        // Legal owner
+        "legal-owner": "Cisco DevNet <https://developer.cisco.com>",
 
         // Contact name for support
-        "contact": "Omer Farook <mailto:omerfarook515@gmail.com>",
+        "support-contact": "Stève Sfartz <mailto:stsfartz@cisco.com>",
 
         // Messaging platform
         // [WORKAROUND] overriding Botkit's integrated support temporarly as 'ciscospark' is still returned
@@ -56,8 +56,8 @@ module.exports = function (controller, bot) {
         var metadata = '{\n'
             + '   "description" : "' + botcommons["description"] + '",\n'
             + '   "url"         : "' + botcommons["url"] + '",\n'
-            + '   "owner"       : "' + botcommons["owner"] + '",\n'
-            + '   "support"     : "' + botcommons["contact"] + '",\n'
+            + '   "owner"       : "' + botcommons["legal_owner"] + '",\n'
+            + '   "support"     : "' + botcommons["support-contact"] + '",\n'
             + '   "healthcheck" : "' + botcommons["healthcheck"] + '",\n'
             + '}\n';
 
