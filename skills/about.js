@@ -18,7 +18,7 @@ module.exports = function (controller, bot) {
         "owner": "Omer Farook",
 
         // Contact name for support
-        "support_contact": "Omer Farook <mailto:omerfarook515@gmail.com>",
+        "contact": "Omer Farook <mailto:omerfarook515@gmail.com>",
 
         // Messaging platform
         // [WORKAROUND] overriding Botkit's integrated support temporarly as 'ciscospark' is still returned
@@ -56,8 +56,8 @@ module.exports = function (controller, bot) {
         var metadata = '{\n'
             + '   "description" : "' + botcommons["description"] + '",\n'
             + '   "url"         : "' + botcommons["url"] + '",\n'
-            + '   "owner"       : "' + botcommons["legal_owner"] + '",\n'
-            + '   "support"     : "' + botcommons["support_contact"] + '",\n'
+            + '   "owner"       : "' + botcommons["owner"] + '",\n'
+            + '   "support"     : "' + botcommons["contact"] + '",\n'
             + '   "healthcheck" : "' + botcommons["healthcheck"] + '",\n'
             + '}\n';
 
