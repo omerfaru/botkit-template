@@ -5,7 +5,7 @@ module.exports = function (controller) {
 
     controller.hears([/^help$/], 'direct_message,direct_mention', function (bot, message) {
         var text = "Here are my skills:";
-        text += "\n- " + bot.appendMention(message, "variable") + ": explanation on python variables";
+        text += "\n- " + bot.appendMention(message, "python_variable") + ": explanation on python variables";
         text += "\n- " + bot.appendMention(message, "operators") + ": explanation on python basic operators";
         text += "\n- " + bot.appendMention(message, "decision") + ": explanation on python decision making";
         text += "\n- " + bot.appendMention(message, "loops") + ": explanation on python loops";
