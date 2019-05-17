@@ -16,7 +16,6 @@ module.exports = function (controller) {
         text += "\n\nI also understand:";
         text += "\n- " + bot.appendMention(message, "about") + ": shows metadata about myself";
         text += "\n- " + bot.appendMention(message, "help") + ": spreads the word about my skills";
-        text += "\n- " + bot.appendMention(message, "show [skill]") + ": display the code of the specified skill";
         bot.reply(message, text);
     });
 }
